@@ -1,67 +1,533 @@
 {
   "orders": [
     {
-      "id": 1,
-      "userId": 1,
-      "client": "Jude Milhon",
+      "userId": "24",
+      "client": "Andre",
       "products": [
         {
-          "qty": 1,
-          "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
+          "name": "Hamburguesa doble",
+          "price": 1500,
+          "image": "https://media.istockphoto.com/id/1329622513/es/foto/deliciosa-hamburguesa-con-chuleta-de-ternera-verduras-y-cebollas-aisladas-sobre-un-fondo.jpg?s=612x612&w=0&k=20&c=--1G64kGk7OIQO3VwNnP4NB6H03wF7hq4J1yLldkQ98=",
+          "type": "Almuerzo",
+          "quantity": 2,
+          "id": 64
         },
         {
-          "qty": 1,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "client": "Katie Bouman",
-      "products": [
-        {
-          "qty": 2,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
+          "name": "Gaseosa 750 ml",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/vista-frontal-refresco-que-vierte-vidrio_23-2148691223.jpg?w=1060&t=st=1687373464~exp=1687374064~hmac=6729f44749d903f44eabe0106ba106e0f0c75bb2c122ccf379004562241eb9c0",
+          "type": "Almuerzo",
+          "quantity": 1,
+          "id": 69
         },
         {
-          "qty": 1,
-          "product": {
-            "id": 3,
-            "name": "Agua 500ml",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-            "type": "Almuerzo",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
+          "name": "Papas fritas",
+          "price": 500,
+          "image": "https://img.freepik.com/foto-gratis/papas-fritas_74190-2552.jpg?w=1380&t=st=1687373093~exp=1687373693~hmac=9022d43a0f104bab14fc5845cb7ecb324474314d4a1896fb1c5154cf7b46c3d7",
+          "type": "Almuerzo",
+          "quantity": 1,
+          "id": 66
         }
       ],
       "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
+      "dataEntry": "9:33:36 PM",
+      "dataExit": 1,
+      "id": 1
+    },
+    {
+      "userId": "24",
+      "client": "ulises",
+      "products": [
+        {
+          "name": "Jugos de fruta natural",
+          "price": 700,
+          "image": "https://img.freepik.com/foto-gratis/delicioso-vaso-jugo-naranja_144627-16582.jpg?w=740&t=st=1687371270~exp=1687371870~hmac=2d060f477ac0d1235e3194870d4b838b9eb36e8cb71a3ca5d49ad6f9200e7901",
+          "type": "Desayuno",
+          "quantity": 1,
+          "id": 4
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "9:34:26 PM",
+      "dataExit": 1,
+      "id": 2
+    },
+    {
+      "userId": "27",
+      "client": "Sergio",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/emparedado_1339-1108.jpg?w=1380&t=st=1687375517~exp=1687376117~hmac=51b7c1fccf300a2165a2e3b8bfe75e1f2e18dee051798c5191db6c29d3b6fa66",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 2
+        },
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://img.freepik.com/fotos-premium/taza-cafe-caliente-aislado-blanco_272787-163.jpg?w=1060",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 1
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "11:40:55 AM",
+      "dataExit": 1,
+      "id": 3
+    },
+    {
+      "userId": "21",
+      "client": "Pau",
+      "products": [
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://img.freepik.com/fotos-premium/taza-cafe-caliente-aislado-blanco_272787-163.jpg?w=1060",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 1
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "11:41:57 AM",
+      "dataExit": 249,
+      "id": 4
+    },
+    {
+      "userId": "23",
+      "client": "123",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/emparedado_1339-1108.jpg?w=1380&t=st=1687375517~exp=1687376117~hmac=51b7c1fccf300a2165a2e3b8bfe75e1f2e18dee051798c5191db6c29d3b6fa66",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 3
+        },
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://img.freepik.com/fotos-premium/taza-cafe-caliente-aislado-blanco_272787-163.jpg?w=1060",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 2
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "10:35:04 AM",
+      "dataExit": 0,
+      "id": 5
+    },
+    {
+      "userId": "23",
+      "client": "123456",
+      "products": [
+        {
+          "id": 3,
+          "name": "Agua 500ml",
+          "price": 500,
+          "image": "https://img.freepik.com/vector-gratis/icono-vector-realista-botella-agua-plastico-aislado-sobre-fondo-blanco-bebida-maqueta-bebida_134830-1356.jpg?w=740&t=st=1687377214~exp=1687377814~hmac=cedc8cdd26a87ef8a29c14c4c01566f01912cb9e87bcd4eddb28729ec567159f",
+          "type": "Almuerzo",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 3
+        },
+        {
+          "name": "Hamburguesa simple",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.jpg?w=826&t=st=1687371480~exp=1687372080~hmac=2840779db814aff4935e8d9fda6f904729ee797a84b2ab27449a6807b6fc2f0f",
+          "type": "Almuerzo",
+          "quantity": 3,
+          "id": 63
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "10:35:11 AM",
+      "dataExit": 0,
+      "id": 6
+    },
+    {
+      "userId": "23",
+      "client": "123",
+      "products": [
+        {
+          "name": "Hamburguesa simple",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.jpg?w=826&t=st=1687371480~exp=1687372080~hmac=2840779db814aff4935e8d9fda6f904729ee797a84b2ab27449a6807b6fc2f0f",
+          "type": "Almuerzo",
+          "quantity": 2,
+          "id": 63
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "10:36:04 AM",
+      "dataExit": 9,
+      "id": 7
+    },
+    {
+      "userId": "23",
+      "client": "1",
+      "products": [
+        {
+          "name": "Hamburguesa simple",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.jpg?w=826&t=st=1687371480~exp=1687372080~hmac=2840779db814aff4935e8d9fda6f904729ee797a84b2ab27449a6807b6fc2f0f",
+          "type": "Almuerzo",
+          "quantity": 3,
+          "id": 63
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "10:36:08 AM",
+      "dataExit": 9,
+      "id": 8
+    },
+    {
+      "userId": "23",
+      "client": "123456",
+      "products": [
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://img.freepik.com/fotos-premium/taza-cafe-caliente-aislado-blanco_272787-163.jpg?w=1060",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 1
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "10:45:54 AM",
+      "dataExit": 41,
+      "id": 9
+    },
+    {
+      "userId": "23",
+      "client": "23",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/emparedado_1339-1108.jpg?w=1380&t=st=1687375517~exp=1687376117~hmac=51b7c1fccf300a2165a2e3b8bfe75e1f2e18dee051798c5191db6c29d3b6fa66",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 1
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "11:27:53 AM",
+      "dataExit": 5,
+      "id": 10
+    },
+    {
+      "userId": "23",
+      "client": "123456",
+      "products": [
+        {
+          "name": "Hamburguesa simple",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.jpg?w=826&t=st=1687371480~exp=1687372080~hmac=2840779db814aff4935e8d9fda6f904729ee797a84b2ab27449a6807b6fc2f0f",
+          "type": "Almuerzo",
+          "quantity": 2,
+          "id": 63
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "11:41:21 AM",
+      "dataExit": 418,
+      "id": 11
+    },
+    {
+      "userId": "23",
+      "client": "z",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/emparedado_1339-1108.jpg?w=1380&t=st=1687375517~exp=1687376117~hmac=51b7c1fccf300a2165a2e3b8bfe75e1f2e18dee051798c5191db6c29d3b6fa66",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 1
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "11:44:56 AM",
+      "dataExit": 415,
+      "id": 12
+    },
+    {
+      "userId": "23",
+      "client": "zx",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/emparedado_1339-1108.jpg?w=1380&t=st=1687375517~exp=1687376117~hmac=51b7c1fccf300a2165a2e3b8bfe75e1f2e18dee051798c5191db6c29d3b6fa66",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 1
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "11:45:00 AM",
+      "dataExit": 414,
+      "id": 13
+    },
+    {
+      "userId": "23",
+      "client": "MAcarena",
+      "products": [
+        {
+          "name": "Jugos de fruta natural",
+          "price": 700,
+          "image": "https://img.freepik.com/foto-gratis/delicioso-vaso-jugo-naranja_144627-16582.jpg?w=740&t=st=1687371270~exp=1687371870~hmac=2d060f477ac0d1235e3194870d4b838b9eb36e8cb71a3ca5d49ad6f9200e7901",
+          "type": "Desayuno",
+          "quantity": 2,
+          "id": 4
+        },
+        {
+          "name": "Café con leche",
+          "price": 700,
+          "image": "https://img.freepik.com/fotos-premium/arte-latte-capuchino-cafe-caliente-aislado-fondo-blanco_158502-315.jpg?w=1060",
+          "type": "Desayuno",
+          "quantity": 1,
+          "id": 62
+        },
+        {
+          "name": "Hamburguesa doble",
+          "price": 1500,
+          "image": "https://media.istockphoto.com/id/1329622513/es/foto/deliciosa-hamburguesa-con-chuleta-de-ternera-verduras-y-cebollas-aisladas-sobre-un-fondo.jpg?s=612x612&w=0&k=20&c=--1G64kGk7OIQO3VwNnP4NB6H03wF7hq4J1yLldkQ98=",
+          "type": "Almuerzo",
+          "quantity": 1,
+          "id": 64
+        },
+        {
+          "name": "Papas fritas",
+          "price": 500,
+          "image": "https://img.freepik.com/foto-gratis/papas-fritas_74190-2552.jpg?w=1380&t=st=1687373093~exp=1687373693~hmac=9022d43a0f104bab14fc5845cb7ecb324474314d4a1896fb1c5154cf7b46c3d7",
+          "type": "Almuerzo",
+          "quantity": 1,
+          "id": 66
+        },
+        {
+          "name": "Hamburguesa simple",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.jpg?w=826&t=st=1687371480~exp=1687372080~hmac=2840779db814aff4935e8d9fda6f904729ee797a84b2ab27449a6807b6fc2f0f",
+          "type": "Almuerzo",
+          "quantity": 1,
+          "id": 63
+        },
+        {
+          "id": 3,
+          "name": "Agua 500ml",
+          "price": 500,
+          "image": "https://img.freepik.com/vector-gratis/icono-vector-realista-botella-agua-plastico-aislado-sobre-fondo-blanco-bebida-maqueta-bebida_134830-1356.jpg?w=740&t=st=1687377214~exp=1687377814~hmac=cedc8cdd26a87ef8a29c14c4c01566f01912cb9e87bcd4eddb28729ec567159f",
+          "type": "Almuerzo",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 1
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "6:39:21 PM",
+      "dataExit": 0,
+      "id": 14
+    },
+    {
+      "userId": "23",
+      "client": "clementito",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/emparedado_1339-1108.jpg?w=1380&t=st=1687375517~exp=1687376117~hmac=51b7c1fccf300a2165a2e3b8bfe75e1f2e18dee051798c5191db6c29d3b6fa66",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 1
+        },
+        {
+          "name": "Jugos de fruta natural",
+          "price": 700,
+          "image": "https://img.freepik.com/foto-gratis/delicioso-vaso-jugo-naranja_144627-16582.jpg?w=740&t=st=1687371270~exp=1687371870~hmac=2d060f477ac0d1235e3194870d4b838b9eb36e8cb71a3ca5d49ad6f9200e7901",
+          "type": "Desayuno",
+          "quantity": 1,
+          "id": 4
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "8:02:34 PM",
+      "dataExit": 0,
+      "id": 15
+    },
+    {
+      "userId": "23",
+      "client": "hola",
+      "products": [
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://img.freepik.com/fotos-premium/taza-cafe-caliente-aislado-blanco_272787-163.jpg?w=1060",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 1
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "1:22:49 PM",
+      "dataExit": 0,
+      "id": 22
+    },
+    {
+      "userId": "23",
+      "client": "holis",
+      "products": [
+        {
+          "id": 1,
+          "name": "Sandwich de jamón y queso",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/emparedado_1339-1108.jpg?w=1380&t=st=1687375517~exp=1687376117~hmac=51b7c1fccf300a2165a2e3b8bfe75e1f2e18dee051798c5191db6c29d3b6fa66",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://img.freepik.com/fotos-premium/taza-cafe-caliente-aislado-blanco_272787-163.jpg?w=1060",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 1
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "1:59:44 PM",
+      "dataExit": 0,
+      "id": 23
+    },
+    {
+      "userId": "23",
+      "client": "12",
+      "products": [
+        {
+          "name": "Hamburguesa simple",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.jpg?w=826&t=st=1687371480~exp=1687372080~hmac=2840779db814aff4935e8d9fda6f904729ee797a84b2ab27449a6807b6fc2f0f",
+          "type": "Almuerzo",
+          "quantity": 1,
+          "id": 63
+        }
+      ],
+      "status": "pending",
+      "dataEntry": "9:49:55 PM",
+      "dataExit": null,
+      "id": 24
+    },
+    {
+      "userId": "23",
+      "client": "lof",
+      "products": [
+        {
+          "id": 2,
+          "name": "Café americano",
+          "price": 500,
+          "image": "https://img.freepik.com/fotos-premium/taza-cafe-caliente-aislado-blanco_272787-163.jpg?w=1060",
+          "type": "Desayuno",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 1
+        }
+      ],
+      "status": "delivered",
+      "dataEntry": "12:16:22 PM",
+      "dataExit": 0,
+      "id": 25
+    },
+    {
+      "userId": "23",
+      "client": "123",
+      "products": [
+        {
+          "id": 3,
+          "name": "Agua 500ml",
+          "price": 500,
+          "image": "https://img.freepik.com/vector-gratis/icono-vector-realista-botella-agua-plastico-aislado-sobre-fondo-blanco-bebida-maqueta-bebida_134830-1356.jpg?w=740&t=st=1687377214~exp=1687377814~hmac=cedc8cdd26a87ef8a29c14c4c01566f01912cb9e87bcd4eddb28729ec567159f",
+          "type": "Almuerzo",
+          "dateEntry": "2022-03-05 15:14:10",
+          "quantity": 1
+        },
+        {
+          "name": "Hamburguesa simple",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.jpg?w=826&t=st=1687371480~exp=1687372080~hmac=2840779db814aff4935e8d9fda6f904729ee797a84b2ab27449a6807b6fc2f0f",
+          "type": "Almuerzo",
+          "quantity": 1,
+          "id": 63
+        },
+        {
+          "name": "Hamburguesa doble",
+          "price": 1500,
+          "image": "https://media.istockphoto.com/id/1329622513/es/foto/deliciosa-hamburguesa-con-chuleta-de-ternera-verduras-y-cebollas-aisladas-sobre-un-fondo.jpg?s=612x612&w=0&k=20&c=--1G64kGk7OIQO3VwNnP4NB6H03wF7hq4J1yLldkQ98=",
+          "type": "Almuerzo",
+          "quantity": 1,
+          "id": 64
+        },
+        {
+          "name": "Aros de cebolla",
+          "price": 500,
+          "image": "https://img.freepik.com/foto-gratis/aros-cebolla-papas-fritas-blanco_144627-16398.jpg?w=1380&t=st=1687373193~exp=1687373793~hmac=9b1448ef5dcc761f9b59a1de063fa614294b49a781c4726255bc357298b43ab6",
+          "type": "Almuerzo",
+          "quantity": 1,
+          "id": 65
+        },
+        {
+          "name": "Agua 750 ml",
+          "price": 700,
+          "image": "https://img.freepik.com/fotos-premium/botellas-plastico-agua-aisladas-blanco-trazado-recorte_105428-2911.jpg?w=360",
+          "type": "Almuerzo",
+          "quantity": 1,
+          "id": 67
+        },
+        {
+          "name": "Papas fritas",
+          "price": 500,
+          "image": "https://img.freepik.com/foto-gratis/papas-fritas_74190-2552.jpg?w=1380&t=st=1687373093~exp=1687373693~hmac=9022d43a0f104bab14fc5845cb7ecb324474314d4a1896fb1c5154cf7b46c3d7",
+          "type": "Almuerzo",
+          "quantity": 1,
+          "id": 66
+        },
+        {
+          "name": "Gaseosa 500 ml",
+          "price": 700,
+          "image": "https://img.freepik.com/foto-gratis/bebida-cola-fresca-vidrio_144627-16201.jpg?w=740&t=st=1687373413~exp=1687374013~hmac=336b364f032762898ac64b4bccac294633b27d783f4057a52cf64d32c9dd7e9f",
+          "type": "Almuerzo",
+          "quantity": 1,
+          "id": 68
+        },
+        {
+          "name": "Gaseosa 750 ml",
+          "price": 1000,
+          "image": "https://img.freepik.com/foto-gratis/vista-frontal-refresco-que-vierte-vidrio_23-2148691223.jpg?w=1060&t=st=1687373464~exp=1687374064~hmac=6729f44749d903f44eabe0106ba106e0f0c75bb2c122ccf379004562241eb9c0",
+          "type": "Almuerzo",
+          "quantity": 1,
+          "id": 69
+        }
+      ],
+      "status": "pending",
+      "dataEntry": "12:17:28 PM",
+      "dataExit": null,
+      "id": 26
     }
   ],
   "products": [
@@ -69,39 +535,168 @@
       "id": 1,
       "name": "Sandwich de jamón y queso",
       "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+      "image": "https://img.freepik.com/foto-gratis/emparedado_1339-1108.jpg?w=1380&t=st=1687375517~exp=1687376117~hmac=51b7c1fccf300a2165a2e3b8bfe75e1f2e18dee051798c5191db6c29d3b6fa66",
       "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "dateEntry": "2022-03-05 15:14:10",
+      "quantity": 1
     },
     {
       "id": 2,
       "name": "Café americano",
       "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+      "image": "https://img.freepik.com/fotos-premium/taza-cafe-caliente-aislado-blanco_272787-163.jpg?w=1060",
       "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "dateEntry": "2022-03-05 15:14:10",
+      "quantity": 1
     },
     {
       "id": 3,
       "name": "Agua 500ml",
       "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
+      "image": "https://img.freepik.com/vector-gratis/icono-vector-realista-botella-agua-plastico-aislado-sobre-fondo-blanco-bebida-maqueta-bebida_134830-1356.jpg?w=740&t=st=1687377214~exp=1687377814~hmac=cedc8cdd26a87ef8a29c14c4c01566f01912cb9e87bcd4eddb28729ec567159f",
       "type": "Almuerzo",
-      "dateEntry": "2022-03-05 15:14:10"
+      "dateEntry": "2022-03-05 15:14:10",
+      "quantity": 1
+    },
+    {
+      "name": "Jugos de fruta natural",
+      "price": 700,
+      "image": "https://img.freepik.com/foto-gratis/delicioso-vaso-jugo-naranja_144627-16582.jpg?w=740&t=st=1687371270~exp=1687371870~hmac=2d060f477ac0d1235e3194870d4b838b9eb36e8cb71a3ca5d49ad6f9200e7901",
+      "type": "Desayuno",
+      "quantity": 1,
+      "id": 4
+    },
+    {
+      "name": "Café con leche",
+      "price": 700,
+      "image": "https://img.freepik.com/fotos-premium/arte-latte-capuchino-cafe-caliente-aislado-fondo-blanco_158502-315.jpg?w=1060",
+      "type": "Desayuno",
+      "quantity": 1,
+      "id": 62
+    },
+    {
+      "name": "Hamburguesa simple",
+      "price": 1000,
+      "image": "https://img.freepik.com/foto-gratis/sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.jpg?w=826&t=st=1687371480~exp=1687372080~hmac=2840779db814aff4935e8d9fda6f904729ee797a84b2ab27449a6807b6fc2f0f",
+      "type": "Almuerzo",
+      "quantity": 1,
+      "id": 63
+    },
+    {
+      "name": "Hamburguesa doble",
+      "price": 1500,
+      "image": "https://media.istockphoto.com/id/1329622513/es/foto/deliciosa-hamburguesa-con-chuleta-de-ternera-verduras-y-cebollas-aisladas-sobre-un-fondo.jpg?s=612x612&w=0&k=20&c=--1G64kGk7OIQO3VwNnP4NB6H03wF7hq4J1yLldkQ98=",
+      "type": "Almuerzo",
+      "quantity": 1,
+      "id": 64
+    },
+    {
+      "name": "Aros de cebolla",
+      "price": 500,
+      "image": "https://img.freepik.com/foto-gratis/aros-cebolla-papas-fritas-blanco_144627-16398.jpg?w=1380&t=st=1687373193~exp=1687373793~hmac=9b1448ef5dcc761f9b59a1de063fa614294b49a781c4726255bc357298b43ab6",
+      "type": "Almuerzo",
+      "quantity": 1,
+      "id": 65
+    },
+    {
+      "name": "Papas fritas",
+      "price": 500,
+      "image": "https://img.freepik.com/foto-gratis/papas-fritas_74190-2552.jpg?w=1380&t=st=1687373093~exp=1687373693~hmac=9022d43a0f104bab14fc5845cb7ecb324474314d4a1896fb1c5154cf7b46c3d7",
+      "type": "Almuerzo",
+      "quantity": 1,
+      "id": 66
+    },
+    {
+      "name": "Agua 750 ml",
+      "price": 700,
+      "image": "https://img.freepik.com/fotos-premium/botellas-plastico-agua-aisladas-blanco-trazado-recorte_105428-2911.jpg?w=360",
+      "type": "Almuerzo",
+      "quantity": 1,
+      "id": 67
+    },
+    {
+      "name": "Gaseosa 500 ml",
+      "price": 700,
+      "image": "https://img.freepik.com/foto-gratis/bebida-cola-fresca-vidrio_144627-16201.jpg?w=740&t=st=1687373413~exp=1687374013~hmac=336b364f032762898ac64b4bccac294633b27d783f4057a52cf64d32c9dd7e9f",
+      "type": "Almuerzo",
+      "quantity": 1,
+      "id": 68
+    },
+    {
+      "name": "Gaseosa 750 ml",
+      "price": 1000,
+      "image": "https://img.freepik.com/foto-gratis/vista-frontal-refresco-que-vierte-vidrio_23-2148691223.jpg?w=1060&t=st=1687373464~exp=1687374064~hmac=6729f44749d903f44eabe0106ba106e0f0c75bb2c122ccf379004562241eb9c0",
+      "type": "Almuerzo",
+      "quantity": 1,
+      "id": 69
     }
   ],
   "users": [
     {
-      "email": "anita.borg@systers.xyz",
-      "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
+      "email": "pauli@andre.com",
+      "password": "$2a$10$jV5Q1fc4kmiX8FAqO3p2HOvmS98uA75x4tIopMAZcfVkERbrnKIoS",
+      "role": "chef",
+      "id": 14
+    },
+    {
+      "email": "andre1@andre.com",
+      "password": "$2a$10$cwsmd0d7veJIEyubPovd..0RR4FEf77Vx5GFhit/qkmR0765jstRS",
+      "role": "waiter",
+      "id": 18
+    },
+    {
+      "email": "andre6@andre.com",
+      "password": "$2a$10$G1CAo5xlQ7i6O5FxoxCwZ.cq.9dKBdzwe5cQ1euh7s/1A6U0oTW0i",
+      "role": "waiter",
+      "id": 19
+    },
+    {
+      "email": "agustin@agustin.com",
+      "password": "$2a$10$F/f0hlG.QnV6VNk1wyk3zeZM1V46vpDZNC9Iaq/Y0zeQTvy1HHyFu",
+      "role": "chef",
+      "id": 21
+    },
+    {
+      "email": "admin2@admin2.com",
+      "password": "$2a$10$opE9UWzmsxP3j/hP637eOu9Mgvhl/VfH/FfBwy5yRZ/lytc7NsG/y",
       "role": "admin",
-      "id": 1
+      "id": 23
+    },
+    {
+      "email": "test@waiter.com",
+      "password": "$2a$10$/HsKUOX8ClnYC54kCESyO.z4SzJGOyq5rv4LqpGpDZ1PBtrgdzeo6",
+      "role": "admin",
+      "id": 24
+    },
+    {
+      "email": "pauli2@test.com",
+      "password": "$2a$10$PLjQAraxPfpwEa0dz/mLI.JKdf8GiLyRKAmMlewPcC452CI3QHW/2",
+      "role": "waiter",
+      "id": 25
     },
     {
       "email": "grace.hopper@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
+      "password": "$2a$10$7JGJdvLsc0JuhUcZci0djezuLTgZbbtRSaUYmEZekFy74ZAajnS2O",
       "role": "admin",
-      "id": 2
+      "id": 26
+    },
+    {
+      "email": "waiter@waiter.com",
+      "password": "$2a$10$UFeDD5hbwGOy7v3tXDWnE.KW8.4CFeUgvsQ4Aoe4yv61aZFfIdPNi",
+      "role": "chef",
+      "id": 27
+    },
+    {
+      "email": "1@1.com",
+      "password": "$2a$10$rQK1keVaM7yftqyZRjMhP.hh4T95xIhoAOl8YOsS6fC10.xUAEPbK",
+      "role": "chef",
+      "id": 28
+    },
+    {
+      "email": "1@1.cl",
+      "password": "$2a$10$yaG7gN7AyA/MxAoR5A0kl.zzb7lPR5s9C9EieWNeMNbZacJ72Cz0O",
+      "role": "waiter",
+      "id": 29
     }
   ]
 }

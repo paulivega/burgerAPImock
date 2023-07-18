@@ -6,25 +6,178 @@ content-type: application/json
     "password": "123456"
 }
 
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4NjM0NTQ3NywiZXhwIjoxNjg2MzQ5MDc3LCJzdWIiOiIyIn0.oBroHciZah9Zg0_WVxT2g2NirVxmM_CpDhUNMGlKdl8
+
+{
+    "email": "admin9@admin9.com",
+    "password": "123456",
+    "role": "admin"
+}
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4NjM0NTQ3NywiZXhwIjoxNjg2MzQ5MDc3LCJzdWIiOiIyIn0.oBroHciZah9Zg0_WVxT2g2NirVxmM_CpDhUNMGlKdl8
+
+{
+    "email": "mesera2@bq.com",
+    "password": "123456",
+    "role": "waiter"
+}
+
+POST http://localhost:8080/users HTTP/1.1
+content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4Nzg3OTY0NywiZXhwIjoxNjg3ODgzMjQ3LCJzdWIiOiIyIn0.UJs4oYZ1s-3c2sLylq1C5G2dHfY4wudWorRSktnrMXo
+
+{
+    "email": "chef@burgerqueen.com",
+    "password": "123456",
+    "role": "chef"
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4NzUzODA1OCwiZXhwIjoxNjg3NTQxNjU4LCJzdWIiOiIyIn0.J1VlKKPdA6OsNUNy3QZnmV1UAlqdfvNqBaJe2Ri2Ii0
+
+{
+    "name": "Café con leche",
+    "price": 700,
+    "image": "https://img.freepik.com/foto-gratis/cafe-amoroso-taza-capuchino-fresco-signo-corazon_501050-192.jpg?w=900&t=st=1687368940~exp=1687369540~hmac=e71f3ee003045c098a086dfce9dd1d02a5569ca796fb2da758f6a67d6d2d11b2",
+    "type": "Desayuno",
+    "quantity": 1
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4Nzg4MDA0NCwiZXhwIjoxNjg3ODgzNjQ0LCJzdWIiOiIyIn0.lnU386EYfHPWm0wuopsZRbZDR-gTTAGy9E0V0PRSzPU
+
+{
+    "name": "Café con leche",
+    "price": 700,
+    "image": "https://img.freepik.com/fotos-premium/arte-latte-capuchino-cafe-caliente-aislado-fondo-blanco_158502-315.jpg?w=1060",
+    "type": "Desayuno",
+    "quantity": 1
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4Nzg4MDA0NCwiZXhwIjoxNjg3ODgzNjQ0LCJzdWIiOiIyIn0.lnU386EYfHPWm0wuopsZRbZDR-gTTAGy9E0V0PRSzPU
+{
+    "name": "Jugos de fruta natural",
+    "price": 700,
+    "image": "https://img.freepik.com/foto-gratis/delicioso-vaso-jugo-naranja_144627-16582.jpg?w=740&t=st=1687371270~exp=1687371870~hmac=2d060f477ac0d1235e3194870d4b838b9eb36e8cb71a3ca5d49ad6f9200e7901",
+    "type": "Desayuno",
+    "quantity": 1
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4Nzg4MDA0NCwiZXhwIjoxNjg3ODgzNjQ0LCJzdWIiOiIyIn0.lnU386EYfHPWm0wuopsZRbZDR-gTTAGy9E0V0PRSzPU
+
+{
+    "name": "Hamburguesa simple",
+    "price": 1000,
+    "image": "https://img.freepik.com/foto-gratis/sabrosa-hamburguesa-aislada-sobre-fondo-blanco-comida-rapida-hamburguesa-fresca-carne-queso_90220-1063.jpg?w=826&t=st=1687371480~exp=1687372080~hmac=2840779db814aff4935e8d9fda6f904729ee797a84b2ab27449a6807b6fc2f0f",
+    "type": "Almuerzo",
+     "quantity": 1
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4Nzg4MDA0NCwiZXhwIjoxNjg3ODgzNjQ0LCJzdWIiOiIyIn0.lnU386EYfHPWm0wuopsZRbZDR-gTTAGy9E0V0PRSzPU
+
+{
+    "name": "Hamburguesa doble",
+    "price": 1500,
+    "image": "https://media.istockphoto.com/id/1329622513/es/foto/deliciosa-hamburguesa-con-chuleta-de-ternera-verduras-y-cebollas-aisladas-sobre-un-fondo.jpg?s=612x612&w=0&k=20&c=--1G64kGk7OIQO3VwNnP4NB6H03wF7hq4J1yLldkQ98=",
+    "type": "Almuerzo",
+     "quantity": 1
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4Nzg4MDA0NCwiZXhwIjoxNjg3ODgzNjQ0LCJzdWIiOiIyIn0.lnU386EYfHPWm0wuopsZRbZDR-gTTAGy9E0V0PRSzPU
+
+{
+    "name": "Aros de cebolla",
+    "price": 500,
+    "image": "https://img.freepik.com/foto-gratis/aros-cebolla-papas-fritas-blanco_144627-16398.jpg?w=1380&t=st=1687373193~exp=1687373793~hmac=9b1448ef5dcc761f9b59a1de063fa614294b49a781c4726255bc357298b43ab6",
+    "type": "Almuerzo",
+     "quantity": 1
+}
+
+POST http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4Nzg4MDA0NCwiZXhwIjoxNjg3ODgzNjQ0LCJzdWIiOiIyIn0.lnU386EYfHPWm0wuopsZRbZDR-gTTAGy9E0V0PRSzPU
+
+{
+    "name": "Gaseosa 750 ml",
+    "price": 1000,
+    "image": "https://img.freepik.com/foto-gratis/vista-frontal-refresco-que-vierte-vidrio_23-2148691223.jpg?w=1060&t=st=1687373464~exp=1687374064~hmac=6729f44749d903f44eabe0106ba106e0f0c75bb2c122ccf379004562241eb9c0",
+    "type": "Almuerzo",
+     "quantity": 1
+}
+
 GET http://localhost:8080/users HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4OTE3NzQxMywiZXhwIjoxNjg5MTgxMDEzLCJzdWIiOiIyNiJ9.rlCDCtW_tzB-mIDJv7Q_H6Cc_eDLGCqEGkYfRAWKpBM
 
 GET http://localhost:8080/products HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4OTE4MzYyNSwiZXhwIjoxNjg5MTg3MjI1LCJzdWIiOiIyNiJ9.ROkLTotT7C0JTeCaAqLE6g4cXSWsEfYjR5nfueLpQWE
+
+GET http://localhost:8080/orders HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4NzU1MjM2NSwiZXhwIjoxNjg3NTU1OTY1LCJzdWIiOiIyIn0.iw6z9zkXlfPkxz5hdWliV8KObGDHtIc-PDnzTDQgdo0
 
 GET http://localhost:8080/orders HTTP/1.1
 content-type: application/json
 authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzMzkwOSwiZXhwIjoxNjUwMjM3NTA5LCJzdWIiOiIyIn0.nS99u-MBatZHbexMUenwsGdS8oV55BIaGwI6PSP7BC8
 
-PATCH http://localhost:8080/orders/2 HTTP/1.1
+PATCH http://localhost:8080/orders/ HTTP/1.1
 content-type: application/json
-authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY1MDIzNDAzNSwiZXhwIjoxNjUwMjM3NjM1LCJzdWIiOiIyIn0.q6lDwW_wyK6-8-lUyiLUwnoowRLsvuFblu1yufkaa_Q
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4OTAzOTkzMCwiZXhwIjoxNjg5MDQzNTMwLCJzdWIiOiIyNiJ9.MENJtPwXss5BpJ25XOh30jZrMx642w9IHc5onCjYvZo
 
 {
     "status": "delivered",
     "dateProcessed": "2022-03-05 16:00"
+}
+
+PATCH http://localhost:8080/products/3 HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4OTAzOTkzMCwiZXhwIjoxNjg5MDQzNTMwLCJzdWIiOiIyNiJ9.MENJtPwXss5BpJ25XOh30jZrMx642w9IHc5onCjYvZo
+
+{
+
+    "quantity": 1
+}
+    
+
+PATCH http://localhost:8080/products/1 HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4Nzg4NDAxMiwiZXhwIjoxNjg3ODg3NjEyLCJzdWIiOiIyIn0.Lnoex1V5Px9UBra-cwdwoEdZuAHug3x5CzgAxBZzQvM
+
+{
+    "image": "https://img.freepik.com/foto-gratis/emparedado_1339-1108.jpg?w=1380&t=st=1687375517~exp=1687376117~hmac=51b7c1fccf300a2165a2e3b8bfe75e1f2e18dee051798c5191db6c29d3b6fa66"
+}
+
+PATCH http://localhost:8080/products/4 HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4Nzg4MDA0NCwiZXhwIjoxNjg3ODgzNjQ0LCJzdWIiOiIyIn0.lnU386EYfHPWm0wuopsZRbZDR-gTTAGy9E0V0PRSzPU
+
+{
+    "name": "Jugos de fruta natural",
+    "price": 700,
+    "image": "https://img.freepik.com/foto-gratis/delicioso-vaso-jugo-naranja_144627-16582.jpg?w=740&t=st=1687371270~exp=1687371870~hmac=2d060f477ac0d1235e3194870d4b838b9eb36e8cb71a3ca5d49ad6f9200e7901",
+    "type": "Desayuno"
+}
+
+PATCH http://localhost:8080/products/2 HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4Nzg4MDA0NCwiZXhwIjoxNjg3ODgzNjQ0LCJzdWIiOiIyIn0.lnU386EYfHPWm0wuopsZRbZDR-gTTAGy9E0V0PRSzPU
+
+{
+     "image": "https://img.freepik.com/fotos-premium/taza-cafe-caliente-aislado-blanco_272787-163.jpg?w=1060"
 }
 
 POST http://localhost:8080/orders HTTP/1.1
@@ -59,4 +212,37 @@ authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlL
     ],
     "status": "pending",
     "dataEntry": "2022-03-05 15:00"
+}
+
+GET http://localhost:8080/products HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4OTAzOTkzMCwiZXhwIjoxNjg5MDQzNTMwLCJzdWIiOiIyNiJ9.MENJtPwXss5BpJ25XOh30jZrMx642w9IHc5onCjYvZo
+
+POST http://localhost:8080/orders HTTP/1.1
+content-type: application/json
+authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdyYWNlLmhvcHBlckBzeXN0ZXJzLnh5eiIsImlhdCI6MTY4ODAwNTEzMSwiZXhwIjoxNjg4MDA4NzMxLCJzdWIiOiIyIn0.IKasaB-mDg8EYE2oAjsc7sktpHep1s00ZlstTrQ1dD0
+ 
+{
+"userId": "4",
+"client": "PRUEBA 57",
+"products": [
+    {
+    "id": 2,
+    "name": "Café americano",
+    "price": 500,
+    "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+    "type": "Desayuno",
+    "dateEntry": "2022-03-05 15:14:10"
+    },
+    {
+    "name": "Café con leche",
+    "price": 700,
+    "image": "https://img.freepik.com/foto-gratis/cafe-amoroso-taza-capuchino-fresco-signo-corazon_501050-192.jpg?w=900&t=st=1687368940~exp=1687369540~hmac=e71f3ee003045c098a086dfce9dd1d02a5569ca796fb2da758f6a67d6d2d11b2",
+    "type": "Desayuno",
+    "quantity": 3,
+    "id": 4
+    }
+],
+"status": "delivery",
+"dataEntry": "10:48:28",
 }
